@@ -72,7 +72,7 @@ const Checkout = ({ products }) => {
                 </StyledTableCell>
                 <StyledTableCell align="right"></StyledTableCell>
                 <StyledTableCell align="right">
-                  <strong> ₱ {subtotal}</strong>
+                  <strong> ₱ {subtotal.toFixed(2)}</strong>
                 </StyledTableCell>
               </TableRow>
             </TableBody>
