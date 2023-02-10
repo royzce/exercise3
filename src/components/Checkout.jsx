@@ -61,7 +61,7 @@ const Checkout = ({ products }) => {
                       ₱ {cartItem.price}
                     </StyledTableCell>
                     <StyledTableCell align="right">
-                      ₱ {+cartItem.qty * +cartItem.price}
+                      ₱ {(+cartItem.qty * +cartItem.price).toFixed(2)}
                     </StyledTableCell>
                   </StyledTableRow>
                 ))}
